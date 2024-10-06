@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  default = "webapp_rg"
+  default = "webapp_rg_isen"
 }
 
 variable "location" {
@@ -7,13 +7,13 @@ variable "location" {
 }
 
 variable "storage_account_name" {
-  default = "taumestorageacc"
+  default = "leguistorageacc"
 }
 
 variable "app_service_plan_name" {
-  default = "my_app_service_plan"
+  default = "my_app_service_plan_test"
 }
 
 variable "app_service_name" {
-  default = "pythonapiservice"
+  default = "pythonapiserviceisen"
 }

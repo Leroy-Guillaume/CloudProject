@@ -41,7 +41,7 @@ resource "azurerm_linux_web_app" "main" {
 
 
 resource "azurerm_cosmosdb_account" "main" {
-  name                = "taume-cosmos-account"
+  name                = "legui-cosmos-account"
   location            = azurerm_resource_group.main.location
   resource_group_name = azurerm_resource_group.main.name
   offer_type          = "Standard"

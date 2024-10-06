@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  default = "webapp_rg_isen"
+  default = "webapp_rg_isen2"
 }
 
 variable "location" {
@@ -15,5 +15,5 @@ variable "app_service_plan_name" {
 }
 
 variable "app_service_name" {
-  default = "pythonapiserviceisen"
+  default = "pythonapiserviceis"
 }
